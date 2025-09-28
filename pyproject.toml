@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "leaf-catcher"
+version = "0.1.0"
+description = "A fun game where players catch falling leaves using a basket."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tkinter = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
